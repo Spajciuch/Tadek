@@ -1,0 +1,15 @@
+{
+  "name": "AdministrationBot",
+  "version": "1.0.0",
+  "description": "Bot do zarządzania serwerami (Bar)",
+  "main": "server.js",
+  "author": "Miłosz Spyte Lamański",
+  "license": "ISC",
+  "dependencies": {
+    "computer-info": "^0.2.5",
+    "discord.js": "^11.4.2",
+    "moment": "^2.22.2",
+    "ms": "^2.1.1",
+    "nodemon": "^1.18.4"
+  }
+}

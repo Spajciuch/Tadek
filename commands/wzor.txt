@@ -1,0 +1,10 @@
+var Discord = require("discord.js");
+var config = require(`../config.json`)
+module.exports.run = async (client, message, args) => {
+}
+module.exports.help = {
+	name: "",
+	category:"",
+  description:"",
+  use:""
+}
