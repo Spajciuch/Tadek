@@ -6,6 +6,17 @@ var bar = client.guilds.get('469846041764691988')
 var moment = require('moment')
 var ms = require('ms')
 var today = moment.utc(new Date()).format("DD.MM.YYYY hh:mm")
+var firebase = require('firebase')
+var database = firebase.database()
+var conf = {
+    apiKey: "AIzaSyDv2uLv7t-XbdVAHWneOgRsb7LqVBeSUOs",
+    authDomain: "tadek-7ab6f.firebaseapp.com",
+    databaseURL: "https://tadek-7ab6f.firebaseio.com",
+    projectId: "tadek-7ab6f",
+    storageBucket: "tadek-7ab6f.appspot.com",
+    messagingSenderId: "603046754456"
+  };
+  firebase.initializeApp(conf);
 client.commands = new Discord.Collection()
 
 client.on("ready", () => {
